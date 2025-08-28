@@ -1,29 +1,42 @@
-<style>
-  body {
-    font-family: sans-serif;
-    background: #f8f8f8;
-    margin: 0;
-    padding: 30px;
-    text-align: center;
-  }
-  h1 {
-    margin-bottom: 20px;
-  }
-  .btn {
-    display: block;           /* 横並びじゃなく縦並び */
-    margin: 15px auto;
-    padding: 15px 0;
-    width: 80%;               /* 画面幅の80%にする */
-    max-width: 300px;         /* PC表示のときは幅を制限 */
-    font-size: 1.3em;
-    font-weight: bold;
-    color: white;
-    background-color: #007acc;
-    border-radius: 10px;
-    text-decoration: none;
-    transition: background-color 0.3s;
-  }
-  .btn:hover {
-    background-color: #005fa3;
-  }
-</style>
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>リンク集</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #f8f8f8;
+      margin: 0;
+      padding: 50px;
+      text-align: center;
+    }
+    h1 {
+      margin-bottom: 30px;
+    }
+    .btn {
+      display: inline-block;
+      margin: 15px;
+      padding: 15px 40px;
+      font-size: 1.2em;
+      font-weight: bold;
+      color: white;
+      background-color: #007acc;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+    .btn:hover {
+      background-color: #005fa3;
+    }
+  </style>
+</head>
+<body>
+  <h1>リンク集</h1>
+
+  <a href="book_s.html" class="btn">📖 Book</a>
+  <a href="https://note.com/xxxx" class="btn" target="_blank">✍️ Note</a>
+  <a href="https://x.com/xxxx" class="btn" target="_blank">🐦 X (Twitter)</a>
+
+</body>
+</html>
