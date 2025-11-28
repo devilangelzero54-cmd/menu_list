@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>姪っ狐のお部屋 - ミニゲーム集</title>
+
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    background: #f7cdd3;       /* 優しいピンク */
+    font-family: "Noto Sans JP", sans-serif;
+    text-align: center;
+  }
+
+  /* 上部の透過背景画像 */
+  .header-img {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  /* 見出しタイトル */
+  h1 {
+    margin-top: 10px;
+    font-size: 1.8rem;
+    color: #8b5d67;
+    font-weight: 700;
+    margin-bottom: 25px;
+  }
+
+  /* ボタン共通デザイン */
+  .menu-btn {
+    display: block;
+    width: 75%;
+    max-width: 370px;
+    padding: 16px 10px;
+    margin: 18px auto;
+    border-radius: 20px;
+    background: #6bb8ff;
+    color: white;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 700;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.18);
+    transition: 0.15s;
+  }
+
+  .menu-btn:active {
+    transform: scale(0.96);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.25);
+  }
+
+  /* coming soon ボタン */
+  .disabled-btn {
+    background: #c1d7ff;
+    color: #ffffff;
+  }
+
+  /* 下の説明 */
+  .footer-note {
+    margin-top: 30px;
+    padding-bottom: 40px;
+    font-size: 1.3rem;
+    color: #8b5d67;
+    font-weight: 700;
+  }
+</style>
+</head>
+
+<body>
+
+  <!-- ★ 上部 透過PNG（姪っ狐＋ソファ＋ぬいぐるみ） -->
+  <img src="minigame_bg.png" alt="姪っ狐のお部屋" class="header-img" />
+
+  <!-- 見出し -->
+  <h1>ミニゲーム集</h1>
+
+  <!-- スライドパズル -->
+  <a class="menu-btn" href="https://devilangelzero54-cmd.github.io/puzzle_game/">
+    スライドパズル
+  </a>
+
+  <!-- お芋キャッチ -->
+  <a class="menu-btn" href="https://devilangelzero54-cmd.github.io/imo_catch/">
+    お芋キャッチ
+  </a>
+
+  <!-- 追加予定 -->
+  <a class="menu-btn disabled-btn">
+    coming soon...
+  </a>
+
+  <!-- フッターテキスト -->
+  <div class="footer-note">随時追加予定</div>
+
+</body>
+</html>
