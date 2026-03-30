@@ -41,34 +41,42 @@
     .btn:hover {
       background-color: #005fa3;
     }
-    /* ===== 限定ギャラリー案内（冬Ver.） ===== */
+    /* ===== 限定ギャラリー案内（春Ver.） ===== */
 .limited-section {
   text-align: center;
   margin-top: 40px;
 }
+
 .limited-text {
-  font-size: 2em;
-  color: #333333;          /* ダーク系文字 */
+  font-size: 4em;
+  color: #7a5a6a;          /* ほんのりくすみピンクグレー */
   font-weight: bold;
   margin-bottom: 10px;
 }
-.btn-winter {
+
+.btn-spring {
   display: block;
   max-width: 600px;
   margin: 25px auto;
   padding: 50px 40px;
   font-size: 2.3em;
   font-weight: bold;
-  background: #f4a7b9;      /* ゴールド系 */
-  color: #ffffff;           /* 雪の白 */
-  border: 2px solid #d06c88;
-  border-radius: 12px;
+
+  background: linear-gradient(135deg, #ffd6e7, #ffeef5); /* 桜グラデ */
+  color: #c94f7c;           /* 濃い桜ピンク */
+  border: 2px solid #f2a7c0;
+
+  border-radius: 16px;
   text-decoration: none;
   transition: all 0.3s ease;
+  box-shadow: 0 6px 15px rgba(255, 170, 200, 0.3); /* ふんわり影 */
 }
-.btn-winter:hover {
-  background: #e98ca3;      /* ホバー時：明るい赤 */
-  color: #ffffff;
+
+.btn-spring:hover {
+  background: linear-gradient(135deg, #ffc2da, #ffe0eb); /* 少し濃く */
+  color: #a63d66;
+  transform: translateY(-2px); /* 軽く浮く */
+  box-shadow: 0 10px 20px rgba(255, 150, 190, 0.4);
 }
   </style>
 </head>
@@ -82,9 +90,9 @@
   <a href="https://tsaidf.booth.pm/" class="btn" target="_blank">🏪BOOTH</a>
   <a href="minigame.html" class="btn">🎮ミニゲーム</a>
   <div class="limited-section
-  <p class="limited-text"> 卒業 ギャラリー公開中 </p>
-  <a href="https://devilangelzero54-cmd.github.io/winter_gallery/graduation.html" class="btn-winter">
-     🌸graduation🌸 
+  <p class="limited-text"> 春 ギャラリー公開中 </p>
+  <a href="https://devilangelzero54-cmd.github.io/winter_gallery/spring.html" class="btn-spring">
+     🌸spring🌸
   </a>
 </div>
 </body>
